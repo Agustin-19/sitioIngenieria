@@ -22,11 +22,11 @@ li strong{ color: blue;}
     display: none;
 }
 
-#divSantafe{
+#divTitulo{
     border: 1px;
     transition: 1s;
     text-align: center;
 }
-#divSantaFe{
+#divTitulo{
     transform: rotate(1s);
 }
