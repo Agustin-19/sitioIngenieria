@@ -3,7 +3,7 @@
 $(document).ready(
 	function ()
 	{
-        $("#contenedorPagina").fadeIn(6000);
+        $("#contenedorPagina").fadeIn(600);
         $("#menuStaFe").bind("click",mostrarStaFe);
         $("#menuCordoba").bind("click",mostrarCordoba);
         $("#menuEntreRio").bind("click",mostrarEntreRio);
@@ -12,34 +12,28 @@ $(document).ready(
 	}
 );
 function mostrarStaFe(){
-    $("#contenedorPagina").hide(1500);
-    $("#divEntreRio").hide(1500);
-    $("#divCordoba").hide(1500);
-    $("#divSantaFe").show(3000);
+    $("#contenedorPagina").hide(150);
+    $("#divEntreRio").hide(150);
+    $("#divCordoba").hide(150);
+    $("#divSantaFe").show(300);
 }
 function mostrarCordoba(){
-    $("#contenedorPagina").hide(1500);
-    $("#divEntreRio").hide(1500);
-    $("#divSantaFe").hide(1500);
-    $("#divCordoba").show(3000);
+    $("#contenedorPagina").hide(150);
+    $("#divEntreRio").hide(150);
+    $("#divSantaFe").hide(150);
+    $("#divCordoba").show(300);
 }
 function mostrarEntreRio(){
-    $("#contenedorPagina").hide(1500);
-    $("#divSantaFe").hide(1500);
-    $("#divCordoba").hide(1500);
-    $("#divEntreRio").show(3000);
+    $("#contenedorPagina").hide(150);
+    $("#divSantaFe").hide(150);
+    $("#divCordoba").hide(150);
+    $("#divEntreRio").show(300);
 }
 function mostrarContPagina(){
-    $("#divSantaFe").hide(1500);
-    $("#divEntreRio").hide(1500);
-    $("#divCordoba").hide(1500);
-    $("#contenedorPagina").show(3000);
-}
-function mostrarContPagina(){
-    $("#divSantaFe").hide(1500);
-    $("#divEntreRio").hide(1500);
-    $("#divCordoba").hide(1500);
-    $("#tablaOscura").show(3000);
+    $("#divSantaFe").hide(150);
+    $("#divEntreRio").hide(150);
+    $("#divCordoba").hide(150);
+    $("#contenedorPagina").show(300);
 }
 
 
