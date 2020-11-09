@@ -36,7 +36,6 @@ function mostrarContPagina(){
     $("#contenedorPagina").show(300);
 }
 
-
 function MostrarCartelito(){
     alert("Has hecho clic en el titulo");
 }
