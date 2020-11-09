@@ -23,10 +23,10 @@ li strong{ color: blue;}
 }
 
 #divTitulo{
-    border: 1px;
-    transition: 1s;
+    border: 1px solid #ee32d5;
     text-align: center;
+    transition: 1s cubic-bezier(0,1.5,.5,1);
 }
-#divTitulo{
-    transform: rotate(1s);
+#divTitulo:hover{
+    transform: scale(2) rotate(30deg);
 }
